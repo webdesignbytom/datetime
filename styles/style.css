@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    padding-top: 1rem;
+}
+
+.date-time {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#updateTdContainer, #updateHawaiiTime, #dateDataContainer {
+    display: flex;
+    gap: 1rem;
+}
